@@ -41,6 +41,21 @@ public class Variables {
          A smaller data type cannot be divided by a bigger data type
          */
 
+        /*
+        Single and Double Precision
+        Single occupies 32 bits while Double occupies 64 bits
+        Float is Single while Double is Double
+        float = myFloatValue = 5.35; -> ERROR as Java assumes it is double
+         */
 
+        float myMinFloatValue = Float.MIN_VALUE;
+        float myMaxFloatValue = Float.MAX_VALUE;
+        System.out.println("Float minimum value : "+myMinFloatValue);
+        System.out.println("Float maximum value : "+myMaxFloatValue);
+
+        double myMinDoubleValue = Double.MIN_VALUE;
+        double myMaxDoubleValue = Double.MAX_VALUE;
+        System.out.println("double minimum value : "+myMinDoubleValue);
+        System.out.println("double maximum value : "+myMaxDoubleValue);
     }
 }
