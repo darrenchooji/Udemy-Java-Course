@@ -8,14 +8,10 @@ public class DiagonalStar {
         if (number < 5) {
             System.out.println("Invalid Value");
         } else {
-            int rowCount;
-            int columnCount;
-            int currentRow;
-            rowCount = columnCount = number;
-            for (int row=0; row<rowCount; row++) {
-                currentRow = row;
-                for (int column=0; column<columnCount; column++) {
-                    if (row == 0 || column == 0 || row == rowCount-1 || column == columnCount-1 || column == row || column == (rowCount - currentRow - 1)) {
+            int totalRows=number, totalColumns=number;
+            for (int row = 0; row < totalRows; row++) {
+                for (int column = 0; column < totalColumns; column++) {
+                    if (row == 0 | column == 0 || row == (totalRows - 1) || column == (totalColumns - 1) || column == row || column == (totalRows -  row - 1)) {
                         System.out.print("*");
                     } else {
                         System.out.print(" ");
