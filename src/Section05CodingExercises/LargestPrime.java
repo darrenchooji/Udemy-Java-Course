@@ -1,4 +1,4 @@
-package Section_03_Control_Flow_Statement;
+package Section05CodingExercises;
 
 public class LargestPrime {
     public static int getLargestPrime(int number) {
@@ -26,7 +26,3 @@ public class LargestPrime {
         }
     }
 }
-//    public static void main(String[] args) {
-//        int primeNumber = getLargestPrime(21);
-//        System.out.println(primeNumber);
-//    }

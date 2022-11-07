@@ -1,4 +1,4 @@
-package Section_03_Control_Flow_Statement;
+package Section05CodingExercises;
 
 public class NumberOfDaysInMonth {
     public static int getDaysInMonth(int month, int year) {

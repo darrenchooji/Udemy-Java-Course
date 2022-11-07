@@ -1,4 +1,4 @@
-package Section_02;
+package Section04CodingExercises;
 
 public class MinutesToYearsDaysCalculator {
     public static void printYearsAndDays(long minutes) {

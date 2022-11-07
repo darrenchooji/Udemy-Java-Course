@@ -1,4 +1,4 @@
-package Section_02;
+package Section04CodingExercises;
 
 public class DecimalComparator{
     public static boolean areEqualByThreeDecimalPlaces (double x, double y) {

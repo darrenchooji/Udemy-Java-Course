@@ -1,4 +1,4 @@
-package Section_02;
+package Section04CodingExercises;
 
 public class LeapYear {
     public static boolean isLeapYear(int year) {

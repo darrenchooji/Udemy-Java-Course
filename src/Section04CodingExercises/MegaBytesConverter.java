@@ -1,4 +1,4 @@
-package Section_02;
+package Section04CodingExercises;
 
 public class MegaBytesConverter {
     public static void printMegaBytesAndKiloBytes(int kiloBytes) {
